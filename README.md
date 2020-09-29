@@ -1,2 +1,4 @@
-# tkmc_contacts
-Android App - TKMC Contacts
+tkmccontacts
+============
+
+Contact Application for the Templar Knights Motorcycle Club

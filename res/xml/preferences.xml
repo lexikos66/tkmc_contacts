@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Sort Order">
+        <ListPreference
+            android:title="Sort Order Preference"
+            android:summary="Select the sorting order for the contact list"
+            android:key="sortPref"
+           	android:defaultValue="1"
+           	android:entries="@array/sort_text"
+           	android:entryValues="@array/sort_values" />       
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Lodge Selection">
+        <ListPreference
+            android:title="Lodge Preference"
+            android:summary="Select your preferred lodge"
+            android:key="lodgePref"
+           	android:defaultValue="1"
+           	android:entries="@array/lodges_text"
+           	android:entryValues="@array/lodges_values" />       
+    </PreferenceCategory>
+    
+</PreferenceScreen>           
